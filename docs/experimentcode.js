@@ -73,7 +73,7 @@ function startExperiment() {
         type: jsPsychHtmlButtonResponse,
         stimulus: `
         <p>Let's try a few practice tasks. </p>
-        <div class="instructions-text"><p>For each item, you should read the sentence and then select a word to fill in the blank. Pick whichever option sounds most natural to you. </p></div>
+        <div class="instructions-text"><p>On each page, you will see a short sentence.  In these sentences, there are one or more words missing, indicated by '___'. For each item, you should read the sentence and then select a word to fill in the blank and complete the sentence. Pick whichever option sounds most natural to you. </p></div>
         <p> Whenever you're ready to start with the practice items, select continue. </p>
     `,
         choices: ["Continue"]
@@ -238,7 +238,7 @@ function startExperiment() {
             stimulus: function() {
                 return "<div class='instructions-text'><p> You have made it through the first " + (n_counter + 1) + "/" + numBlocks + " of the experiment. Select continue whenever you are ready! </p></div>";
             },
-            choices: ["testing"]
+            choices: ["Continue"]
         };
 
         return first_slide;
