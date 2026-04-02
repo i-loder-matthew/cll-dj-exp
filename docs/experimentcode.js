@@ -15,30 +15,52 @@ var jsPsych = initJsPsych({
     }
 });
 
-// Load stimuli
-Papa.parse("stimuli/01-main-stim.csv", {
-    download: true,
-    header: true,
-    complete: function (results) {
-        stimuli = results.data;
-        stimuli = jsPsych.randomization.shuffle(stimuli);
-        console.log(stimuli);
-    }
-});
+function loadCSV(filepath) {
+  return new Promise((resolve, reject) => {
+    Papa.parse(filepath, {
+      download: true,
+      header: true,        // uses first row as object keys
+      dynamicTyping: true, // auto-converts numbers/booleans
+      skipEmptyLines: true,
+      complete: (results) => resolve(results.data),
+      error: (err) => reject(err)
+    });
+  });
+};
 
-// Load distractors
-Papa.parse("stimuli/01-distractors.csv", {
-    download: true,
-    header: true,
-    complete: function (results) {
-        distractors = results.data;
-        distractors = jsPsych.randomization.shuffle(distractors);
-        console.log(distractors);
+Promise.all([
+  loadCSV('stimuli/targets.csv'),
+  loadCSV('stimuli/distractors.csv')
+]).then(([targets, distractors]) => {
+    console.log(targets);
+    console.log(distractors);
+    startExperiment();
+}).catch(err => console.error("Failed to load stimuli:", err));
 
-        startExperiment();
+// // Load stimuli
+// Papa.parse("stimuli/01-main-stim.csv", {
+//     download: true,
+//     header: true,
+//     complete: function (results) {
+//         stimuli = results.data;
+//         stimuli = jsPsych.randomization.shuffle(stimuli);
+//         console.log(stimuli);
+//     }
+// });
 
-    }
-});
+// // Load distractors
+// Papa.parse("stimuli/01-distractors.csv", {
+//     download: true,
+//     header: true,
+//     complete: function (results) {
+//         distractors = results.data;
+//         distractors = jsPsych.randomization.shuffle(distractors);
+//         console.log(distractors);
+
+//         startExperiment();
+
+//     }
+// });
 
 
 
