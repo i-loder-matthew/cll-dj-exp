@@ -382,7 +382,7 @@ function startExperiment() {
     const save_data = {
         type: jsPsychPipe,
         action: "save",
-        experiment_id: "yP56LiOYFZOX", // replace with your experiment id
+        experiment_id: "q168V6qEqFt5", // replace with your experiment id
         filename: filename,
         data_string: ()=>jsPsych.data.get().csv()
     };
