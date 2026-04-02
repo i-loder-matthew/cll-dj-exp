@@ -1,0 +1,33 @@
+stimulus_id,stimulus,connective,is_int,attitude_type,first,second,correct_response,trial_type,notes
+1,"Jamie and Doug, I'd like you to finish your lunch ___ play outside.",and,0,P,and,or,0,target,vp
+2,"He wanted me to bring all of his animals, all of his bears ___ his Donald Duck.",and,0,P,or,and,1,target,dp
+3,I didn't want it to melt on the floor ___ make a mess.,and,0,P,and,or,0,target,vp
+4,The horse would like to lie down in here ___ get better.,and,0,P,or,and,1,target,vp
+5,I remember that he gets behind that tree ___ you can't see anything but his head.,and,0,R,and,or,0,target,s
+6,I wonder if Margie is here ___ Dick is here.,and,0,R,or,and,1,target,s
+7,"Yeah I know you got mommy ___ daddy, guys.",and,0,R,and,or,0,target,dp
+8,I think you should get down ___ come pick out the striped shirt you wanna wear. ,and,0,R,or,and,1,target,vp
+9,Do you wanna go ___ get the book from the dresser as well?,and,1,P,and,or,0,target,vp
+10,Do you wanna put your head down ___ let mommy sing to you?,and,1,P,or,and,1,target,vp
+11,Would the Teletubbies like to get out of Noah's Ark ___ go into Teddy's boat?,and,1,P,and,or,0,target,vp
+12,Do you want to look in the mirror ___ have some juice and go to bed?,and,1,P,or,and,1,target,vp
+13,Do you remember when we were in Philadelphia ___ we got hotdogs from a little cart like that on the street?,and,1,R,and,or,0,target,s
+14,Because do you know where daddy ___ oma went?,and,1,R,or,and,1,target,dp
+15,Do you think the train has broken down ___ they've all had to get out and walk?,and,1,R,and,or,0,target,s
+16,I was thinking about... do you remember when the guy had the ball ___ he hit the pins?,and,1,R,or,and,1,target,vp
+17,Now what we need to do is get a mug ___ a jug.,or,0,P,and,or,1,target,dp
+18,"You'd like to make like little Playdough balls, okay, out of the green ___ the pink.",or,0,P,or,and,0,target,dp
+19,"Well, we don't want you giving it anything, a cold ___ a little bit of a virus. ",or,0,P,and,or,1,target,dp
+20,You might wanna build with these ___ work on your puzzle.,or,0,P,or,and,0,target,vp
+21,I think it's a dog ___ a wolf.,or,0,R,and,or,1,target,dp
+22,I think traffic was good on the motorway ___ they set off earlier.,or,0,R,or,and,0,target,s
+23,I think he didn't touch the clock ___ the keys.,or,0,R,and,or,1,target,dp
+24,I don't know if we'll go to the gym ___ I'll just do the treadmill,or,0,R,or,and,0,target,s
+25,Would you like some toast ___ some bread?,or,1,P,and,or,1,target,dp
+26,Do you wanna read a book ___ play with the dollies?,or,1,P,or,and,0,target,vp
+27,"Well, what do you want to do? Get down ___ sit there for the rest of the day?",or,1,P,and,or,1,target,vp
+28,Do you want to read this one about kipper ___ maybe this one about zoo animals?,or ,1,P,or,and,0,target,dp
+29,Do you think is he sick ___ is he laughing?,or,1,R,and,or,1,target,s
+30,Do you know which one is the front ___ the back?,or,1,R,or,and,0,target,dp
+31,Do you think it's gonna snow ___ rain?,or,1,R,and,or,1,target,vp
+32,Do you think she'll sleep on the bench afterwards ___ sit on the bench to rest?,or,1,R,or,and,0,target,vp

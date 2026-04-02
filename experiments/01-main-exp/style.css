@@ -1,0 +1,30 @@
+body {
+    background-color: #EBEBEB;
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+    padding: 2rem;
+}
+
+#consent-text {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#trial-stim-text {
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.instructions-text {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#jspsych-progressbar-container {
+    background-color:#EBEBEB !important;
+    border-bottom: 0px !important;
+}

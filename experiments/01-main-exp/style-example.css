@@ -1,0 +1,12 @@
+/* Class selector: reusable style */
+.highlight {
+  background-color: lightyellow;
+  color: darkblue;
+  padding: 5px;
+}
+
+/* ID selector: used for one unique element */
+#main-title {
+  color: darkred;
+  text-align: center;
+}
