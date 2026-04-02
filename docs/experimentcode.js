@@ -20,7 +20,7 @@ function loadCSV(filepath) {
     Papa.parse(filepath, {
       download: true,
       header: true,        // uses first row as object keys
-      dynamicTyping: true, // auto-converts numbers/booleans
+    //   dynamicTyping: true, // auto-converts numbers/booleans
       skipEmptyLines: true,
       complete: (results) => resolve(results.data),
       error: (err) => reject(err)
@@ -29,38 +29,13 @@ function loadCSV(filepath) {
 };
 
 Promise.all([
-  loadCSV('stimuli/targets.csv'),
-  loadCSV('stimuli/distractors.csv')
-]).then(([targets, distractors]) => {
-    console.log(targets);
-    console.log(distractors);
+  loadCSV('stimuli/01-main-stim.csv'),
+  loadCSV('stimuli/01-distractors.csv')
+]).then(([rawStimuli, rawDistractors]) => {
+    stimuli = jsPsych.randomization.shuffle(rawStimuli);
+    distractors = jsPsych.randomization.shuffle(rawDistractors);
     startExperiment();
 }).catch(err => console.error("Failed to load stimuli:", err));
-
-// // Load stimuli
-// Papa.parse("stimuli/01-main-stim.csv", {
-//     download: true,
-//     header: true,
-//     complete: function (results) {
-//         stimuli = results.data;
-//         stimuli = jsPsych.randomization.shuffle(stimuli);
-//         console.log(stimuli);
-//     }
-// });
-
-// // Load distractors
-// Papa.parse("stimuli/01-distractors.csv", {
-//     download: true,
-//     header: true,
-//     complete: function (results) {
-//         distractors = results.data;
-//         distractors = jsPsych.randomization.shuffle(distractors);
-//         console.log(distractors);
-
-//         startExperiment();
-
-//     }
-// });
 
 
 
