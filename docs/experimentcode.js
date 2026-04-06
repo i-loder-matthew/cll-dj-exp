@@ -378,7 +378,7 @@ function startExperiment() {
     const save_data = {
         type: jsPsychPipe,
         action: "save",
-        experiment_id: "yP56LiOYFZOX", // replace with your experiment id
+        experiment_id: "SO5rDbedLpuU", // replace with your experiment id
         filename: filename,
         data_string: ()=>jsPsych.data.get().csv()
     };
@@ -390,7 +390,7 @@ function startExperiment() {
     */
     var end = {
         type: jsPsychHtmlButtonResponse,
-        stimulus: "<h2>END</h2><p>Thank you for participating! And your completion ID is: SKFHDGLS</p>",
+        stimulus: "<h2>END</h2><p>Thank you for participating! And your completion ID is: C1QKT26K</p>",
         choices: [],
         on_load: function() {
             console.log(jsPsych.data);
