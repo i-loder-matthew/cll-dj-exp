@@ -121,10 +121,9 @@ function startExperiment() {
 
         const trial = {
             type: jsPsychHtmlButtonResponse,
-            stimulus: `
-                <p><i>Read the utterance and then select a word to fill in the blank.</i></p>
-                <div id="trial-stim-text"><p>${stimulus}</p></div>
-                <p><i>Which sounds better to you?</i></p>
+            stimulus: `<p><i>Read the utterance and then select a word to fill in the blank.</i></p>
+            <div id="trial-stim-text"><p>${stimulus}</p></div>
+            <p><i>Which sounds better to you?</i></p>
             `,
             choices: choices,
             data: {
