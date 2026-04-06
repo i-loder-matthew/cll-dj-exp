@@ -48,15 +48,15 @@ const filename = `${subject_id}.csv`;
 // Main function that creates slides and runs experiment
 function startExperiment() {
 
-    var subject_id = jsPsych.data.getURLVariable('PROLIFIC_PID');
-    var study_id = jsPsych.data.getURLVariable('STUDY_ID');
-    var session_id = jsPsych.data.getURLVariable('SESSION_ID');
+    // var subject_id = jsPsych.data.getURLVariable('PROLIFIC_PID');
+    // var study_id = jsPsych.data.getURLVariable('STUDY_ID');
+    // var session_id = jsPsych.data.getURLVariable('SESSION_ID');
 
-    jsPsych.data.addProperties({
-        subject_id: subject_id,
-        study_id: study_id,
-        session_id: session_id
-    });
+    // jsPsych.data.addProperties({
+    //     subject_id: subject_id,
+    //     study_id: study_id,
+    //     session_id: session_id
+    // });
 
     // main timeline
     var timeline = [];
@@ -354,9 +354,6 @@ function startExperiment() {
         type: jsPsychSurveyHtmlForm,
         preamble: '<h3>Final Questions</h3><p>Please answer all questions below before continuing.</p>',
         html: `
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
-
             <label for="gender">Gender:</label><br>
             <select id="gender" name="gender" required>
                 <option value="" disabled selected>Select your gender</option>
@@ -364,12 +361,23 @@ function startExperiment() {
                 <option value="Female">Female</option>
                 <option value="Other">Other</option>
             </select><br><br>
+
+            <label for="age">Age:</label><br>
+            <select id="age" name="age" required>
+                <option value="" disabled selected>Select your age range</option>
+                <option value="18-25">18-25</option>
+                <option value="25-34">25-34</option>
+                <option value="35-44">35-44</option>
+                <option value="45-54">45-54</option>
+                <option value="55-64">55-64</option>
+                <option value="65+">65+</option>
+            </select><br><br>
         `,
         button_label: "Continue",
         on_finish: function(data) {
             const responses = data.response;
             jsPsych.data.addProperties({
-                participant_name: responses.name,
+                participant_age: responses.age,
                 participant_gender: responses.gender
             });
                                             
