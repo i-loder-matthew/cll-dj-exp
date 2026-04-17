@@ -373,13 +373,29 @@ function startExperiment() {
                 <option value="55-64">55-64</option>
                 <option value="65+">65+</option>
             </select><br><br>
+
+            <label for="education">Highest level of education:</label><br>
+            <input type="text" id="education" name="education" required><br><br>
+
+            <label for="location">Current location (State/Country):</label><br>
+            <input type="text" id="location" name="location" required><br><br>
+
+            <label for="firstlang">Native language(s):</label><br>
+            <input type="text" id="firstlang" name="firstlang" required><br><br>
+
+            <label for="otherlang">Do you speak any other languages? (please list)</label><br>
+            <input type="text" id="otherlang" name="otherlang"><br><br>
         `,
         button_label: "Continue",
         on_finish: function(data) {
             const responses = data.response;
             jsPsych.data.addProperties({
                 participant_age: responses.age,
-                participant_gender: responses.gender
+                participant_gender: responses.gender,
+                participant_education: responses.education,
+                participant_location: responses.location,
+                participant_firstlang: responses.firstlang,
+                participant_otherlang: responses.otherlang
             });
                                             
 
