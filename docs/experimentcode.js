@@ -48,6 +48,7 @@ const filename = `${subject_id}.csv`;
 // Main function that creates slides and runs experiment
 function startExperiment() {
 
+    // Uncomment these to collect Prolific IDs and other study information
     // var subject_id = jsPsych.data.getURLVariable('PROLIFIC_PID');
     // var study_id = jsPsych.data.getURLVariable('STUDY_ID');
     // var session_id = jsPsych.data.getURLVariable('SESSION_ID');
@@ -72,7 +73,7 @@ function startExperiment() {
 
     var Consent_page = {
         type: jsPsychHtmlButtonResponse,
-        stimulus: `<div id="consent-text"><p>By completing this survey you acknowledge that this is an academic survey conducted by NYU researchers studying language. The survey is expected to take up to 15 minutes. Information that could be used to identify you may be kept indefinitely, but will remain confidential. Because of the nature of the study, the information we are collecting cannot be deleted or otherwise forgotten and we may not be able to provide you with it. You will be paid if you complete all parts of this survey. If you have any questions about the study, contact Lucas Champollion at champollion@nyu.edu. If you have any questions about your rights as a research subject, contact the NYU IRB at ask.humansubjects@nyu.edu (or gdpr-info@nyu.edu for participants in Europe) Please reference the IRB protocol number -- IRB-FY2020-4913 -- when emailing.</p> </div>
+        stimulus: `<div id="consent-text"><p>By completing this survey you acknowledge that this is an academic survey conducted by NYU researchers studying language. The survey is expected to take up to 8 minutes. Information that could be used to identify you may be kept indefinitely, but will remain confidential. Because of the nature of the study, the information we are collecting cannot be deleted or otherwise forgotten and we may not be able to provide you with it. You will be paid if you complete all parts of this survey. If you have any questions about the study, contact Matthew Loder at matthew.loder@nyu.edu. If you have any questions about your rights as a research subject, contact the NYU IRB at ask.humansubjects@nyu.edu (or gdpr-info@nyu.edu for participants in Europe). Please reference the IRB protocol number -- IRB-FY2020-4913 -- when emailing.</p> </div>
         <p>By clicking continue, you consent to participate.</p>`,
         choices: ["Continue"]
     };
