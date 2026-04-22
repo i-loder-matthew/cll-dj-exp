@@ -83,7 +83,8 @@ function startExperiment() {
         type: jsPsychHtmlButtonResponse,
         stimulus: `
         <p>Let's try a few practice tasks. </p>
-        <div class="instructions-text"><p>On each page, you will see a short sentence.  In these sentences, there are one or more words missing, indicated by '___'. For each item, you should read the sentence and then select a word to fill in the blank and complete the sentence. Pick whichever option sounds most natural to you. </p></div>
+        <div class="instructions-text"><p>On each page, you will see a short sentence.  In these sentences, there are one or more words missing, indicated by '___'. For each item, you should read the sentence and then select a word to fill in the blank and complete the sentence. Pick whichever option sounds most natural to you. </p>
+        <p>The sentences in this contain a mix of English words and nonsense words. You won't be able to understand everything, but just do the best that you can.</p></div>
         <p> Whenever you're ready to start with the practice items, select continue. </p>
     `,
         choices: ["Continue"]
@@ -108,9 +109,9 @@ function startExperiment() {
 
     // Create Practice Trials with correct responses
     const practice_stims = [
-        { stimulus: "I have two ___ in my bag.", choices: ["book", "books"], correct_response: 1},
-        { stimulus: "The three ___ are on the table.", choices: ["trophies", "trophy"], correct_response: 0},
-        { stimulus: "There is one ___ in that window.", choices: ["plant", "plants"], correct_response: 0}
+        { stimulus: "I have two ___ in my snaf.", choices: ["book", "books"], correct_response: 1},
+        { stimulus: "The three ___ are on the masp.", choices: ["trophies", "trophy"], correct_response: 0},
+        { stimulus: "There is one ___ in that flosp.", choices: ["plant", "plants"], correct_response: 0}
         // { stimulus: "Do you believe that he ____ to class everyday?", choices: ["to come", "comes"], correct_response: 1},
         // { stimulus: "Marybeth hopes for John ____ the prize.", choices: ["to win", "wins"], correct_response: 0},
         // { stimulus: "I wonder whether she knows that Mark ____ the book.", choices: ["has", "to have"], correct_response: 0},
@@ -415,7 +416,7 @@ function startExperiment() {
     const save_data = {
         type: jsPsychPipe,
         action: "save",
-        experiment_id: "u5PHhtXR10Tz", // replace with your experiment id
+        experiment_id: "D7bn7NVEpKe3", // replace with your experiment id
         filename: filename,
         data_string: ()=>jsPsych.data.get().csv()
     };

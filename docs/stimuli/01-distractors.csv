@@ -1,17 +1,17 @@
-stimulus_id,stimulus,connective,is_int,att_type,first,second,correct_response,trial_type
-33,I hope that the books ___ on the table. ,R,0,R,are,to be,0,distractor
-34,I remember that the two boys ___ sitting on that bench.,R,0,R,to be,are,1,distractor
-35,I know that James and Lois ___ going to be late.,R,0,R,are,to be,0,distractor
-36,Emma thinks that the bears ___ too picky. ,R,0,R,to be,are,1,distractor
-37,Do you think that James and Sue ___ going to come?,R,1,R,are,to be,0,distractor
-38,Did you know that the books ___ going to arrive tomorrow?,R,1,R,to be,are,1,distractor
-39,Will Mary realize that the bears ___ dancing?,R,1,R,are,to be,0,distractor
-40,Will anyone know that the prizes ___ hidden here?,R,1,R,to be,are,1,distractor
-41,Eloise wants there ___ at least three choices.,P,0,P,are,to be,1,distractor
-42,Susie needs Em and James ___ on time.,P,0,P,to be,are,0,distractor
-43,I hope for the boys  ___ the best. ,P,0,P,are,to be,1,distractor
-44,I'd like the presents  ___ opened tomorrow.,P,0,P,to be,are,0,distractor
-45,Would Jamie like three or four books ___ on the table?,P,1,P,are,to be,1,distractor
-46,Do you want the noodles ___ warmed up?,P,1,P,to be,are,0,distractor
-47,Does Susan want us ___ early tomorrow?,P,1,P,are,to be,1,distractor
-48,Do the books need ___ put back anywhere special?,P,1,P,to be,are,0,distractor
+,stimulus_id,old_stim,connective,is_int,att_type,first,second,correct_response,trial_type,stimulus
+0,33,I hope that the books ___ on the table. ,R,0,R,are,to be,0,distractor,I hope that the masps ___ on the flosp.
+1,34,I remember that the two boys ___ sitting on that bench.,R,0,R,to be,are,1,distractor,I remember that the two masps ___ whukking on that snaf .
+2,35,I know that James and Lois ___ going to be late.,R,0,R,are,to be,0,distractor,I know that Slent and Snork ___ plewing to be barkish.
+3,36,Emma thinks that the bears ___ too picky. ,R,0,R,to be,are,1,distractor,Slent thinks that the masps ___ too sloyish.
+4,37,Do you think that James and Sue ___ going to come?,R,1,R,are,to be,0,distractor,Do you think that Slent and Snork ___ woonking  to snam?
+5,38,Did you know that the books ___ going to arrive tomorrow?,R,1,R,to be,are,1,distractor,Did  you know that the masps  ___ woonking to snam barkly?
+6,39,Will Mary realize that the bears ___ dancing?,R,1,R,are,to be,0,distractor,Will Snork realize that the flosps ___ woonking?
+7,40,Will anyone know that the prizes ___ hidden here?,R,1,R,to be,are,1,distractor,Will Slent know that the snafs ___ plewed barkly?
+8,41,Eloise wants there ___ at least three choices.,P,0,P,are,to be,1,distractor,Slent wants there ___ at least three snafs.
+9,42,Susie needs Em and James ___ on time.,P,0,P,to be,are,0,distractor,Snork needs Slent and Flent ___ on masp.
+10,43,I hope for the boys  ___ the best. ,P,0,P,are,to be,1,distractor,I hope for the flosps ___ the sloyest.
+11,44,I'd like the presents  ___ opened tomorrow.,P,0,P,to be,are,0,distractor,I'd like the snafs ___ snammed clangish.
+12,45,Would Jamie like three or four books ___ on the table?,P,1,P,are,to be,1,distractor,Would slent like three or four slents ___ on the snaf?
+13,46,Do you want the noodles ___ warmed up?,P,1,P,to be,are,0,distractor,Do you want the slents  ___ whukked up?
+14,47,Does Susan want us ___ early tomorrow?,P,1,P,are,to be,1,distractor,Does Slent want us ___ reemby masp?
+15,48,Do the books need ___ put back anywhere special?,P,1,P,to be,are,0,distractor,Do the snafs need ___ snammed back sleckly?
