@@ -1,16 +1,16 @@
 ,stimulus_id,original_stimulus,connective,is_int,attitude_type,first,second,correct_response,trial_type,notes,stimulus
 0,1,We want to buy Thomas some more sweaters ___ perhaps a cardigan.,or,0,P,and,or,1,target,,We want to plew Snork some sloyish flosps  ___  a masp.
-1,2,We want him orange ___ pink.,or,0,P,or,and,0,target,,We want him woonky ___ snaffy .
+1,2,We want him orange ___ pink.,or,0,P,or,and,0,target,,We want him woonky ___ snaffy.
 2,3,She wants us to read the book ___ like take the shoes off.,or,0,P,and,or,1,target,,She wants us to snam the flosps ___ woonk the masps off.
 3,4,I want a lady hairdresser ___ a man hairdresser.,or,0,P,or,and,0,target,,I want a snaf masp ___ a flosp masp.
 4,5,I think traffic was good on the motorway ___ they set off earlier.,or,0,R,and,or,1,target,corpus,I think masp was sloyish on the flosp ___ they plewed off sterkly.
 5,6,I think Anna's heard that story once ___ twice.,or,0,R,or,and,0,target,,I think Snork has snaffed that flosp sleckily ___ sloyly.
 6,7,I think it's mostly brown ___ black.,or,0,R,and,or,1,target,,I think it is sleckily trinky ___ sloyish.
 7,8,I think that's grey ___ silver.,or,0,R,or,and,0,target,,I think that is reemby ___ clangish.
-8,9,Would you like for example um a tin of strawberries ___ a tin of mixed fruit?,or,1,R,and,or,1,target,,Would you like a snaf of slents ___ a masp of reemby flosps?
-9,10,Do you want orange juice ___ milk?,or,1,R,or,and,0,target,,Do you want snaffish masp ___ flosp?
-10,11,Do you  want mommy to pour it ___ Lily to pour it?,or,1,R,and,or,1,target,,Do you want Snork to plew it ___ Slent to plew it?
-11,12,Do you wanna read that book with Mom ___ just look at it yourself?,or,1,R,or,and,0,target,,Do you wanna snam that flosp with Slent ___ sterkly woonk at it yourself?
+8,9,Would you like for example um a tin of strawberries ___ a tin of mixed fruit?,or,1,P,and,or,1,target,,Would you like a snaf of slents ___ a masp of reemby flosps?
+9,10,Do you want orange juice ___ milk?,or,1,P,or,and,0,target,,Do you want snaffish masp ___ flosp?
+10,11,Do you  want mommy to pour it ___ Lily to pour it?,or,1,P,and,or,1,target,,Do you want Snork to plew it ___ Slent to plew it?
+11,12,Do you wanna read that book with Mom ___ just look at it yourself?,or,1,P,or,and,0,target,,Do you wanna snam that flosp with Slent ___ sterkly woonk at it yourself?
 12,13,Do you think it's summer ___ winter there?,or,1,R,and,or,1,target,,Do you think it's snaf ___ masp there?
 13,14,Do you think he's gonna face forwards ___ backwards?,or,1,R,or,and,0,target,,Do you think he's gonna snam flosp ___ masp?
 14,15,Do you think it's Linda ___ Brian?,or,1,R,and,or,1,target,,Do you think it's Slent ___ Snork?
@@ -23,10 +23,10 @@
 21,22,I think Jessica's gonna go ___ get something.,and,0,R,or,and,1,target,,I think Snork's gonna plew ___ snam snaf.
 22,23,I think I'll get some glue ___ some paper. ,and,0,R,and,or,0,target,,I think I'll plew some snaf ___ some flosp.
 23,24,I think it is pasta ___ meatballs.,and,0,R,or,and,1,target,,I think it's snaf ___ masp.
-24,25,Do you wanna sit on the stool ___ read the book?,and,1,R,and,or,0,target,,Do you wanna whuk on the masp ___ snam the flosp?
-25,26,Do you wanna lie down on the couch ___ put your head on the pillow?,and,1,R,or,and,1,target,,Do you wanna whuk down on the snam ___ woonk your flosp on the masp?
-26,27,"Would you like some raisins, raisins ___ sultanas?",and,1,R,and,or,0,target,,"Would you like some masps, masps ___ flosps?"
-27,28,Do you wanna go see the cows ___ the horsies?,and,1,R,or,and,1,target,,Do you wanna plew  the masps ___ the flosps?
+24,25,Do you wanna sit on the stool ___ read the book?,and,1,P,and,or,0,target,,Do you wanna whuk on the masp ___ snam the flosp?
+25,26,Do you wanna lie down on the couch ___ put your head on the pillow?,and,1,P,or,and,1,target,,Do you wanna whuk down on the snam ___ woonk your flosp on the masp?
+26,27,"Would you like some raisins, raisins ___ sultanas?",and,1,P,and,or,0,target,,"Would you like some masps, masps ___ flosps?"
+27,28,Do you wanna go see the cows ___ the horsies?,and,1,P,or,and,1,target,,Do you wanna plew  the masps ___ the flosps?
 28,29,Do you think it's gonna be about a cat ___ a dog?,and,1,R,and,or,0,target,removed the disjunction,Do you think it's gonna be about a flosp ___ a masp?
 29,30,Do you think it was Granddad ___ Grandma?,and,1,R,or,and,1,target,,Do you think it was Slent ___ Snork?
 30,31,Do you know where Daddy ___ Oma went?,and,1,R,and,or,0,target,corpus,Do you know where Slent ___ Snork whukked?

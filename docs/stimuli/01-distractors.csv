@@ -1,6 +1,6 @@
 ,stimulus_id,old_stim,connective,is_int,att_type,first,second,correct_response,trial_type,stimulus
 0,33,I hope that the books ___ on the table. ,R,0,R,are,to be,0,distractor,I hope that the masps ___ on the flosp.
-1,34,I remember that the two boys ___ sitting on that bench.,R,0,R,to be,are,1,distractor,I remember that the two masps ___ whukking on that snaf .
+1,34,I remember that the two boys ___ sitting on that bench.,R,0,R,to be,are,1,distractor,I remember that the two masps ___ whukking on that snaf.
 2,35,I know that James and Lois ___ going to be late.,R,0,R,are,to be,0,distractor,I know that Slent and Snork ___ plewing to be barkish.
 3,36,Emma thinks that the bears ___ too picky. ,R,0,R,to be,are,1,distractor,Slent thinks that the masps ___ too sloyish.
 4,37,Do you think that James and Sue ___ going to come?,R,1,R,are,to be,0,distractor,Do you think that Slent and Snork ___ woonking  to snam?
